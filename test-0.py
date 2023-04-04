@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 
 # Load master_280620222.pkl (currently stored in traj_SCAN folder)
-with open('master_28062022.pkl', 'rb') as f:
+with open('C:\\Users\\ederro\\Documents\\GitHub\\traj_SCAN\\master_28062022.pkl', 'rb') as f:
     master_df = pickle.load(f)
 
 master_df = master_df[:20500]
