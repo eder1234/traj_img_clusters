@@ -20,8 +20,11 @@ c7_labels = stat_df['c7_labels'].unique()
 # Types of elements in stat_df['c8_labels']
 c8_labels = stat_df['c8_labels'].unique()
 
+c_list = [c6_labels, c7_labels, c8_labels] # implement later
+
 mot_param = ['VCL', 'VAP', 'VSL', 'LIN', 'STR', 'WOB', 'BeatCross']#, 'ALH']
 
+print('num_c = 6')
 # Calculate mean and standard deviation of mot_param for each element in exp_list, qty_list and c6_labels
 for exp in exp_list:
     for qty in qty_list:
@@ -32,6 +35,7 @@ for exp in exp_list:
                 print('std =', stat_df[(stat_df['exposure'] == exp) & (stat_df['quantity'] == qty) & (stat_df['c6_labels'] == c6)][param].std())
                 print()
 
+print('num_c = 7')
 # Calculate mean and standard deviation of mot_param for each element in exp_list, qty_list and c7_labels
 for exp in exp_list:
     for qty in qty_list:
@@ -42,6 +46,7 @@ for exp in exp_list:
                 print('std =', stat_df[(stat_df['exposure'] == exp) & (stat_df['quantity'] == qty) & (stat_df['c6_labels'] == c7)][param].std())
                 print()
 
+print('num_c = 8')
 # Calculate mean and standard deviation of mot_param for each element in exp_list, qty_list and c8_labels
 for exp in exp_list:
     for qty in qty_list:
