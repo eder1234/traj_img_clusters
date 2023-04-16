@@ -18,6 +18,6 @@ Las estadísticas se pueden calcular ejecutando stat.py.
 ## Contacto
 
 ### Administrador 
-Nombre: Eder Alejandro Rodíguez Martínez.
+Nombre: Eder Alejandro Rodríguez Martínez.
 
 Email: eder_rdz_mtz@hotmail.com.
