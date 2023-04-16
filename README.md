@@ -2,6 +2,8 @@
 
 ![alt text](best-7.png "Agrupamiento mediante SCAN")
 
+<img src="best-7.png" alt= “” width="300" height="300">
+
 ## Instalación
 
 Crea un ambiente virtual e instala las dependencias con `pip install -r requirements.txt`.
