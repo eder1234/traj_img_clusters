@@ -1,6 +1,6 @@
 # Agrupamiento de imágenes de trayectoria utilizando SCAN
 
-<img src="best-7.png" alt= “” width="400" height="400" style="display: block; margin: 0 auto">
+<img src="best-7.png" alt= “” width="400" height="400" margin: "auto">
 Resultados del agrupamiento.
 
 ## Instalación
