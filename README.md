@@ -1,11 +1,7 @@
-# traj_img_clusters
+# Agrupamiento de imágenes de trayectoria utilizando SCAN
 
-This repository shows the statistical results of SCAN clustering.
+Ejecuta scan_traj-6.ipynb o scan_traj-7.ipynb para realizar el agrupamiento de imágenes. 
 
-Ask eder_rdz_mtz@hotmail.com for new_df stored in https://drive.google.com/file/d/1xnotBX9mEAcosFF1qkQKNPNArzGIpRiT/view?usp=share_link
+Solicita el dataframe new_df almacenado en https://drive.google.com/file/d/1xnotBX9mEAcosFF1qkQKNPNArzGIpRiT/view?usp=share_link a eder_rdz_mtz@hotmail.com.
 
-Execute stats.py to compute the stats. 
-
-master_df28062022
-
-num_c = [6, 7, 8]
+Las estadísticas se pueden calcular ejecutando stat.py.
